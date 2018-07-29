@@ -1,0 +1,133 @@
+.page-history {
+    background: #fff7e7;
+}
+
+.page-history .myOrder .myOrderItem {
+    background: #fff;
+    padding: .3rem;
+    margin: 0 .3rem .4rem;
+    -webkit-box-shadow: 0 0 .1rem rgba(0, 0, 0, .1);
+    -moz-box-shadow: 0 0 .1rem rgba(0, 0, 0, .1);
+    box-shadow: 0 0 .1rem rgba(0, 0, 0, .1);
+}
+
+.page-history .myOrder .myOrderItem:before,
+.page-history .myOrder .myOrderItem:after {
+    background-size: .3rem;
+}
+
+.page-history .myOrder .myOrderItem .orderTitle {
+    border-bottom: solid 1px #e5e5e5;
+    margin-bottom: .2rem;
+}
+
+.page-history .myOrder .myOrderItem i {
+    font-style: normal;
+}
+
+.page-history .myOrder .myOrderItem .myOrderItemDetail {
+    overflow: hidden;
+    position: relative;
+    padding: .2rem 0;
+}
+
+.page-history .myOrder .myOrderItem .orderTitle {
+    line-height: .8rem;
+}
+
+.page-history .myOrder .myOrderItem .orderStatus {
+    position: absolute;
+    right: 0;
+}
+
+.page-history .myOrder .myOrderItem .orderStatus {
+    padding: 0 .2rem;
+    border-radius: 4px;
+    color: #966a3b;
+    font-size: .4rem;
+    background-color: #f8f8f8;
+}
+
+.page-history .myOrder .myOrderItem.paid .orderStatus {
+    color: #966a3b;
+}
+
+.page-history .myOrder .myOrderItem.unpaid .orderStatus {
+    color: #c41212;
+}
+
+.page-history .myOrder .myOrderItem.aborted .orderStatus,
+.page-history .myOrder .myOrderItem.refund .orderStatus {
+    color: #aaa;
+}
+
+.page-history .myOrder .myOrderItem .orderTodo {
+    text-align: center;
+}
+
+.page-history .myOrder .myOrderItem .orderTodo .orderPreview {
+    display: inline-block;
+    background-color: #966a3b;
+    color: #fff;
+    padding: .1rem 1rem;
+    border-radius: 4px;
+}
+
+.page-history .myOrder .myOrderItem.aborted .orderTodo .orderPreview,
+.page-history .myOrder .myOrderItem.refund .orderTodo .orderPreview {
+    background: #ccc;
+    color: #fff;
+    pointer-events: none;
+    cursor: default;
+    opacity: 0.6;
+}
+
+.page-history .myOrder .myOrderItem .orderPreview {
+    color: #fff;
+    background-color: #FF7800;
+    display: inline-block;
+    padding: 0 .3rem;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    margin-top: -1em;
+    border-radius: 5px;
+    font-size: .4rem;
+    height: 2em;
+    line-height: 2em;
+}
+
+.page-history .site-copyright {
+    background-color: #F5F5F5;
+}
+
+.page-history .myContact {
+    text-align: center;
+    margin: .3rem auto;
+    font-size: .4rem;
+}
+
+.page-history .myContact .weixinAccount {
+    color: #FF5846;
+}
+
+.page-history #footInfo {
+    text-align: center;
+}
+
+.page-history .btn-back-history {
+    display: block;
+    margin: .3rem 1rem;
+    font-size: .5rem;
+    line-height: 2em;
+    height: 2em;
+    border-radius: 2em;
+    text-align: center;
+    background: #FF7800;
+    color: #fff;
+}
+
+.page-history .order-empty-text {
+    text-align: center;
+    padding: .3rem 0;
+}

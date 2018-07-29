@@ -1,0 +1,711 @@
+.container {
+    padding: 0 .3rem;
+}
+
+.icon {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.inline {
+    font-size: 0;
+}
+
+.inline-item {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: .4rem;
+}
+
+a.btn-get-name:hover,
+a.btn-get-name:focus,
+a.btn-get-name:active,
+a.btn-get-name,
+.btn-get-name {
+    background-color: #b2182a;
+    color: #fff;
+    border-color: #b2182a;
+    font-size: .5rem;
+}
+
+.text-contact-us span {
+    color: #b2182a;
+}
+
+.bg-primary-body {
+    background-color: #FFFDEF;
+}
+
+.btn-primary-double {
+    display: block;
+    text-align: center;
+    font-weight: normal;
+    margin: .3rem auto;
+    display: block;
+    background: url(../images/suan/btn_1.png) center no-repeat;
+    background-size: contain;
+    font-size: .5rem;
+}
+
+.btn-submit-primary {
+    background-image: url(../images/suan/btn_2.png);
+    margin-left: .3rem;
+    margin-right: .3rem;
+}
+
+.btn-primary-double span {
+    display: inline-block;
+    padding: .2rem 0;
+    border-radius: 6px;
+    position: relative;
+    color: #fff;
+}
+
+.btn-pay_bottomFixed {
+    display: none;
+}
+
+.primary-title-3 {
+    background: url(../images/suan/icon_biankuang03.png) center no-repeat;
+    background-size: contain;
+    text-align: center;
+    padding: .3rem 0;
+    color: #fff;
+    margin: .3rem auto;
+}
+
+.primary-title-3 span {
+    display: inline-block;
+}
+
+.banner-homepage-1 {
+    text-align: center;
+}
+
+.master-intro {
+    padding: 0 .3rem;
+    margin: .3rem auto;
+    line-height: 1.6;
+}
+
+.form-name-get {
+    padding: .1rem 0;
+    position: relative;
+    margin: 0 .3rem .3rem;
+    border-radius: 4px;
+    border: solid 1px #866135;
+    background: #fff;
+}
+
+.form-name-get .form-group {
+    border-bottom: solid 1px #866135;
+    padding: .1rem .2rem;
+}
+
+.form-name-get .form-group.no-border {
+    border: none;
+}
+
+.form-name-get .form-group:first-child {
+    padding-top: 0;
+}
+
+.form-name-get .form-group:last-child {
+    padding-bottom: 0;
+    border-bottom: none;
+}
+
+.form-name-get input[type="text"],
+.form-name-get select {
+    border-color: transparent;
+    font-size: 0.5rem;
+    background-color: #fff;
+}
+
+.form-name-get input[type="text"] {
+    padding: .3em;
+    width: 100%;
+}
+
+.form-name-get select {
+    padding: .1rem .3rem;
+}
+
+.form-name-get .form-group {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    align-content: flex-start;
+    justify-content: flex-end;
+}
+
+.form-name-get .form-group-title {
+    -webkit-box-flex: 1;
+    -moz-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+}
+
+.form-name-get .form-group-elements {
+    -webkit-box-flex: 2.5;
+    -moz-box-flex: 2.5;
+    -webkit-flex: 2.5;
+    -ms-flex: 2.5;
+    flex: 2.5;
+}
+
+.form-name-get .form-group .icon-drop {
+    display: block;
+    position: absolute;
+    right: .3rem;
+    top: 50%;
+    margin-top: -.3rem;
+    width: .6rem;
+    height: .6rem;
+    background: url(../images/suan/btn_xiala.png) center no-repeat;
+    background-size: contain;
+}
+
+.form-name-get .checkbox i {
+    display: inline-block;
+    width: 1rem;
+    height: 1rem;
+    vertical-align: middle;
+    background: url(../images/suan/checkbox-1.png) center no-repeat;
+    background-size: contain;
+    position: relative;
+    bottom: .2rem;
+}
+
+.form-name-get .checkbox+.checkbox {
+    margin-left: 1rem;
+}
+
+.form-name-get .checkbox.cur i {
+    background-image: url(../images/suan/checkbox-2.png);
+}
+
+.form-name-get .btn-submit-primary {
+    margin-top: 0;
+}
+
+.hero-feauters-1 {
+    padding: .1rem 0;
+}
+
+.hero-feauters-1 ul {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    align-content: flex-start;
+    justify-content: flex-end;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.hero-feauters-1 li {
+    -webkit-box-flex: 1;
+    -moz-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    list-style: none;
+}
+
+.hero-feauters-1 li div {
+    display: block;
+    color: #fff;
+    width: 1rem;
+    margin: 0 auto;
+    text-align: center;
+    padding: .5rem 0;
+    position: relative;
+    background: url(../images/suan/icon_xingge.png) center no-repeat;
+    background-size: contain;
+}
+
+.hero-feauters-1 li div span {
+    display: block;
+    padding: .1rem 0;
+    font-size: .5rem;
+}
+
+.hero-feature-2 .text {
+    margin: .3rem auto;
+}
+
+.hero-feature-3 {
+    position: relative;
+    padding: 2.5rem 0;
+    margin: 0 auto;
+}
+
+.hero-feature-3 i {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: .5;
+    background: url(../images/suan/bg_pattern_1.png) center;
+}
+
+.hero-feature-3 p {
+    padding: 0 5%;
+    line-height: 1.7;
+    margin-bottom: .5rem;
+    position: relative;
+    z-index: 1;
+}
+
+.hero-feature-3 p:last-child {
+    margin-bottom: 0;
+}
+
+.hero-feature-3 p span {
+    font-weight: bold;
+}
+
+.hero-feature-3:before,
+.hero-feature-3:after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 3rem;
+    background: url(../images/suan/img_kuangbufen.png) center top no-repeat;
+    background-size: 101% auto;
+    position: absolute;
+    left: 0;
+    z-index: 1;
+}
+
+.hero-feature-3:after {
+    top: 0;
+}
+
+.hero-feature-3:before {
+    bottom: 0;
+    -moz-transform: scaleY(-1);
+    -webkit-transform: scaleY(-1);
+    -o-transform: scaleY(-1);
+    transform: scaleY(-1);
+    filter: FlipV;
+}
+
+.hero-feature-4 .text {
+    padding: 0 .3rem;
+}
+
+.hero-solution {
+    padding: .3rem 0 .1rem;
+}
+
+.hero-comment {
+    line-height: 1.7;
+    padding: 0 .3rem;
+    margin: .5rem auto;
+}
+
+.paytype-choose {
+    text-align: center;
+}
+
+.paytype-choose form,
+.paytype-choose a {
+    display: inline-block;
+    padding: .1rem 0;
+    border-radius: 4px;
+    width: 8em;
+}
+
+.paytype-choose .pay-weixinpay {
+    color: #fff;
+    background-color: #6cb333;
+}
+
+.paytype-choose .pay-alipay {
+    color: #fff;
+    background-color: #0099ff;
+}
+
+.form-order {
+    padding: .3rem;
+    margin: .5rem auto;
+}
+
+.form-order .form-group {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    margin: .3rem auto;
+}
+
+.form-order .form-group:first-child,
+.form-order .form-group:last-child {
+    margin: 0 auto;
+}
+
+.form-order .form-group>div {
+    -webkit-box-flex: 1;
+    -moz-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    text-align: right;
+    padding-right: .3rem;
+}
+
+.form-order .form-group>div+div {
+    -webkit-box-flex: 2;
+    -moz-box-flex: 2;
+    -webkit-flex: 2;
+    -ms-flex: 2;
+    flex: 2;
+    text-align: left;
+}
+
+.form-order .form-info-user {
+    border-bottom: dashed 1px #ddd;
+    padding-bottom: .5rem;
+    margin-bottom: 0;
+}
+
+.form-order .form-info-order {
+    text-align: center;
+    padding: .5rem 0;
+}
+
+.form-order .form-info-order .hotPrice {
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+}
+
+.form-order .form-info-order .priceDiscount {
+    color: #999;
+    position: absolute;
+    top: 0;
+    left: .3rem;
+}
+
+.form-order .form-info-order .price {
+    color: #bc0606;
+    font-style: normal;
+    font-size: 1.3rem;
+    padding-left: .5rem;
+}
+
+.form-order .order-num i {
+    color: #bc0606;
+    font-style: normal;
+}
+
+.page-names-details {
+    background-color: #fff7e7;
+}
+
+.name-details {
+    padding: .5rem .3rem;
+}
+
+.name-details-info ul {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    align-content: flex-start;
+    justify-content: space-between;
+    padding: 0;
+    margin: .1rem;
+}
+
+.name-details-info ul li {
+    -webkit-box-flex: 1;
+    -moz-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    list-style: none;
+    text-align: center;
+}
+
+.name-details-info ul li+li {
+    -webkit-box-flex: 2.2;
+    -moz-box-flex: 2.2;
+    -webkit-flex: 2.2;
+    -ms-flex: 2.2;
+    flex: 2.2;
+    margin-left: .1rem;
+}
+
+.name-details-info ul li span {
+    display: block;
+    background-color: #fff7e7;
+    border: solid 1px #caa177;
+    margin-bottom: .1rem;
+    padding: .2rem 0;
+}
+
+@media(max-width: 768px) {
+    .name-details-info ul li span {
+        font-size: .5rem;
+    }
+}
+
+.name-details-info {
+    margin-bottom: .5rem;
+}
+
+.name-lucky {
+    margin-bottom: .5rem;
+}
+
+.name-lucky>div {
+    margin-bottom: .6rem;
+}
+
+.name-lucky h4 {
+    margin: .2rem 0;
+    font-size: .5rem;
+    font-weight: normal;
+}
+
+.name-lucky h4 span {
+    display: inline-block;
+    padding: .05rem .3rem;
+    border-left: solid 5px transparent;
+    color: #333;
+}
+
+.name-lucky h4.bg-primary-1 span {
+    border-color: #fbb102;
+}
+
+.name-lucky h4.bg-primary-2 span {
+    border-color: #c4a0ff;
+}
+
+.name-lucky h4.bg-primary-3 span {
+    border-color: #509afd;
+}
+
+.name-lucky h4.bg-primary-4 span {
+    border-color: #59d8cd;
+}
+
+.name-lucky h4.bg-primary-5 span {
+    border-color: #2ccc6c;
+}
+
+.name-lucky h4.bg-primary-6 span {
+    border-color: #fd7879;
+}
+
+.name-lucky h4.bg-primary-7 span {
+    border-color: #54ceff;
+}
+
+.name-lucky h4.bg-primary-8 span {
+    border-color: #fbb102;
+}
+
+.name-lucky h4.bg-primary-9 span {
+    border-color: #c39fff;
+}
+
+.name-zodiac p,
+.name-explain p {
+    padding: 0 .3rem;
+    line-height: 1.6;
+    word-break: break-all;
+}
+
+.name-explain p {
+    margin: 0 auto;
+}
+
+.name-bazi p {
+    text-indent: 2em;
+    line-height: 1.8;
+    padding: 0 .3rem;
+}
+
+.name-lucky p {
+    line-height: 1.8;
+    padding: 0 .3rem;
+}
+
+.name-explain-title {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    align-content: flex-start;
+    justify-content: center;
+}
+
+.name-explain-title div {
+    margin: 0 .3em;
+    text-align: center;
+}
+
+.name-explain-title div span {
+    display: block;
+    position: relative;
+    overflow: hidden;
+    color: #b2182a;
+    font-size: .5rem;
+    margin: 0 auto .3rem;
+    line-height: 1;
+}
+
+.name-explain-title div .name {
+    width: 1.6em;
+    border: solid 1px #b2182a;
+    font-size: 1rem;
+    height: 1.6em;
+    line-height: 1.4em;
+    color: #333;
+}
+
+.name-explain-title div .name em {
+    position: relative;
+    z-index: 2;
+    font-weight: normal;
+}
+
+.name-explain-title div .name i {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    left: 0;
+    top: 50%;
+    background: #e4d0bb;
+}
+
+.name-explain-title div .name i+i {
+    width: 1px;
+    height: 100%;
+    left: 50%;
+    top: 0;
+}
+
+.name-explain-title div .name:before {
+    content: '';
+    display: block;
+    height: 200%;
+    position: absolute;
+    width: 1px;
+    border-right: dashed 2px #e4d0bb;
+    transform: rotate(45deg);
+    left: 50%;
+    top: 50%;
+    margin-top: -100%;
+}
+
+.name-explain-title div .name:after {
+    content: '';
+    display: block;
+    height: 1px;
+    position: absolute;
+    width: 200%;
+    border-bottom: dashed 2px #e4d0bb;
+    transform: rotate(-135deg);
+    top: 50%;
+    left: 50%;
+    margin-left: -100%;
+}
+
+.name-score {
+    text-align: center;
+    font-size: .5rem;
+    margin: 0 auto .3rem;
+    line-height: 1;
+}
+
+.name-score span {
+    color: #b2182a;
+}
+
+.modal-user-contact {
+    text-align: center;
+}
+
+.modal-user-contact input {
+    display: block;
+    width: 100%;
+    padding: .2rem;
+    font-size: .45rem;
+    border: solid 1px #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.modal-user-contact input[type="text"]:focus {
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none
+}
+
+.modal-user-contact input[type="text"]:focus {
+    border-color: #966a3b;
+}
+
+.modal-user-contact .modal-title {
+    margin: .5rem auto;
+}
+
+.modal-user-contact .btn-submit {
+    border: none;
+    outline: 0;
+    font-size: .45rem;
+    display: block;
+    margin: .5rem auto;
+    padding: .2rem .6rem;
+}
+
+.modal-user-contact .btn-submit {
+    background-color: #966a3b;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.btn-pay_bottomFixed {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    background: #fff;
+    box-shadow: 0 0 .1rem rgba(0, 0, 0, .15);
+}
+
+.icon-weixinpay:after,
+.icon-alipay:after {
+    content: '\e61a';
+    vertical-align: middle;
+    font-family: iconfont !important;
+    line-height: 1;
+    font-size: .6rem;
+    display: inline-block;
+    margin-right: .1rem;
+}
+
+.icon-alipay:after {
+    content: '\e618';
+}
