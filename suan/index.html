@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="ch-ZN">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
@@ -87,7 +86,7 @@
                 <!--</ul>-->
                 <a href="javascript:void(0);" class="btn-primary-double btn-submit-primary" id="btnGetNameNow">
                 <span>
-                    <i>22:58:44</i>
+                    <b id="qtime"></b>
                     <!--<i>立即解码下期</i>-->
                 </span>
                 </a>
@@ -227,6 +226,14 @@
 <script src="/Public/js/suan/pageHomepage.js"></script>
 </body>
 <script>
+
+    $(function () {
+       $.getJSON('/api/suan/siteconfig.php', {q:3}, function(result) {
+           if (result.code == 1) {
+               $("#qtime").html(result.data);
+           }
+       });
+    });
     // var _hmt = _hmt || [];
     // (function () {
     //     var hm = document.createElement("script");

@@ -142,7 +142,7 @@ babyMain = (function () {
             };
             curSiteDomain = window.location.href;
             $.ajaxSettings.async = false;
-            $.getJSON('/wap/siteInfo_wap.json', function (data) {
+            $.getJSON('/Public/siteInfo_wap.json', function (data) {
                 $.each(data, function (i, item) {
                     if (curSiteDomain.isContain(item.name))
                         info = item;
@@ -193,5 +193,5 @@ jQuery(document).ready(function ($) {
         $('body').css({
             'padding-bottom': $('.item-addWeixin').outerHeight() + 'px'
         })
-    }
+    };
 });

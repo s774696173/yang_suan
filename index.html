@@ -6,12 +6,52 @@
     <meta name="format-detection" content="telephone=no">
     <meta name="viewport" content="width=720,width=device-width, initial-scale=1,  initial-scale=1.0,maximum-scale=1.0, user-scalable=no">
     <title>易经心水</title>
+    <script src="/Public/js/jquery.js"></script>
+    <script src="/Public/js/qrcode.min.js"></script>
     <script>
-        window.location.href='/suan';
+    (function (doc, win) {
+        var docEl = doc.documentElement,
+            resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+            recalc = function () {
+                var clientWidth = docEl.clientWidth;
+                if (!clientWidth) return;
+                var fts = clientWidth / 10;
+                if (fts < 32) {
+                    fts = 32;
+                } else if (fts > 72) {
+                    fts = 72;
+                }
+                docEl.style.fontSize = fts + 'px';
+            };
+        if (!doc.addEventListener) return;
+        win.addEventListener(resizeEvt, recalc, false);
+        doc.addEventListener('DOMContentLoaded', recalc, false);
+    })(document, window);
+
+        $(function () {
+            $.getJSON("/api/suan/siteconfig.php", null, function (result) {
+                if (result.data[1].value.length > 2) {
+                    var qrcode = new QRCode(document.getElementById("qrcode"), {
+                        url: 'https://qr.alipay.com/bax09260pmgpcefeupov4087',
+                        width: 128,
+                        height: 128,
+                        colorDark: "#000000",
+                        colorLight: "#ffffff",
+                        correctLevel: QRCode.CorrectLevel.H
+                    });
+                    qrcode.clear(); // clear the code.
+                    qrcode.makeCode('https://qr.alipay.com/bax09260pmgpcefeupov4087'); // make another code.
+                } else if (result.data[2].value < 10) {
+                    alert("你需要推荐更新多的才能进入网站！");
+                } else {
+                    window.location.href='/suan';
+                }
+            });
+        });
     </script>
 </head>
-
 <body>
+    <div id="tips"></div>
+    <div id="qrcode"></div>
 </body>
-
 </html>
